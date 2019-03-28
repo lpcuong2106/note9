@@ -25,6 +25,7 @@
       <link type="text/css" rel="stylesheet" media="screen, print" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700|Montserrat:300,400,600,700|Bungee&amp;subset=latin-ext,vietnamese">
       </style>
       <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
+      <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri()?>/css/common.css">
       <script>document.addEventListener("DOMContentLoaded",function(){var a=[].slice.call(document.querySelectorAll(".lazy-hidden")),b=[].slice.call(document.querySelectorAll("iframe.widget-content")),c=!1,d=200;const e=function(){c===!1&&(c=!0,setTimeout(function(){a.forEach(function(a){var b=a.getBoundingClientRect();b.top<=window.innerHeight&&b.bottom>0&&a.classList.remove("lazy-hidden")}),b.forEach(function(a){var b=a.getBoundingClientRect(),c=a.getAttribute("data-src");b.top<=window.innerHeight&&b.bottom>0&&Boolean(c)&&(a.setAttribute("src",c),a.removeAttribute("data-src"))}),0===a.length&&0===b.length&&(document.removeEventListener("scroll",e),window.removeEventListener("resize",e),window.removeEventListener("orientationchange",e)),c=!1},d))};e(),d=200,document.addEventListener("scroll",e),window.addEventListener("resize",e),window.addEventListener("orientationchange",e)});</script>
       <style>.lazy-hidden,.lazy-hidden>.widget-content,.lazy-hidden>.container, .lazy-hidden>.widget-content>.lp-show-image{background-image:none!important}</style>
       <link rel="stylesheet" media="none" onload="if(media!='all')media='all'" href="https://static.ladipage.net/source/animate.min.css?v=160318">
@@ -33,7 +34,6 @@
       <style>@media (max-width: 767px) { .container { width: 375px !important;} }</style>
    </head>
    <body>
-   	<div class="LPCơgjhg"></div>
       <div class="ladi-wraper-page" lp-tk="{&quot;idgAny&quot;:&quot;true&quot;,&quot;pixel&quot;:&quot;true&quot;,&quot;idgAds&quot;:&quot;true&quot;}">
          <div id="SECTION100" class="widget-section ladi-drop lazy-hidden ui-droppable screenS" lp-type="widget_section" lp-widget="widget" lp-lang="SECTION" lp-display="block" lp-hashtag="canhhai198@gmail.com">
             <div class="container">
@@ -45,6 +45,114 @@
                      <div id="PARAGRAPH101" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-display="block">
                         <p class="widget-content" lp-node="p">Mang điện thoại thông minh đến tay bạn.<br></p>
                      </div>
+                     <form class="widget-content" onsubmit="return false;">
+                        <div id="ITEM_FORM1197" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <input class="widget-content" type="text" placeholder="Họ và Tên" name="name" lp-label="Họ và tên" lp-name-id="name" required="required">
+                        </div>
+                        <div id="ITEM_FORM1198" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <input class="widget-content" type="tel" pattern="[0-9]{9,15}" required="required" placeholder="Số Điện Thoại" name="phone" lp-label="Điện thoại" lp-name-id="phone">
+                        </div>
+                        <div id="ITEM_FORM1199" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <input class="widget-content" type="text" placeholder="Địa Chỉ (Số nhà/Tên đường/Ngõ/Hẻm/Thôn)" name="street" lp-label="Địa chỉ" lp-name-id="diachi" required="required">
+                        </div>
+                        <div id="ITEM_FORM1205" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <input class="widget-content" type="text" placeholder="Phường / Xã" name="lpinput2" lp-label="Ô nhập tùy chọn 2" lp-name-id="phuongxa" required="required">
+                        </div>
+                        <div id="ITEM_FORM1203" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <input class="widget-content" type="text" placeholder="Quận / Huyện / Thành Phố" name="lpinput1" lp-label="Ô nhập tùy chọn 1" lp-name-id="quanhuyen" required="required">
+                        </div>
+                        <div id="ITEM_FORM1204" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <select class="widget-content" name="select4" placeholder="Thành Phố / Tỉnh" lp-label="Menu thả xuống 4" lp-name-id="thanhpho" required="required">
+                                 <option value="">Thành Phố / Tỉnh</option>
+                                 <option value="Thành phố Hồ Chí Minh">Thành phố Hồ Chí Minh</option>
+                                 <option value="Hà Nội">Hà Nội</option>
+                                 <option value="An Giang">An Giang</option>
+                                 <option value="Bà Rịa Vũng Tàu">Bà Rịa Vũng Tàu</option>
+                                 <option value="Bạc Liêu">Bạc Liêu</option>
+                                 <option value="Bắc Kạn">Bắc Kạn</option>
+                                 <option value="Bắc Giang">Bắc Giang</option>
+                                 <option value="Bắc Ninh">Bắc Ninh</option>
+                                 <option value="Bến Tre">Bến Tre</option>
+                                 <option value="Bình Dương">Bình Dương</option>
+                                 <option value="Bình Định">Bình Định</option>
+                                 <option value="Bình Phước">Bình Phước</option>
+                                 <option value="Bình Thuận">Bình Thuận</option>
+                                 <option value="Cà Mau">Cà Mau</option>
+                                 <option value="Cao Bằng">Cao Bằng</option>
+                                 <option value="Cần Thơ">Cần Thơ</option>
+                                 <option value="Đà Nẵng">Đà Nẵng</option>
+                                 <option value="Đắk Lắk">Đắk Lắk</option>
+                                 <option value="Đắk Nông">Đắk Nông</option>
+                                 <option value="Đồng Nai">Đồng Nai</option>
+                                 <option value="Đồng Tháp">Đồng Tháp</option>
+                                 <option value="Điện Biên">Điện Biên</option>
+                                 <option value="Gia Lai">Gia Lai</option>
+                                 <option value="Hà Giang">Hà Giang</option>
+                                 <option value="Hà Nam">Hà Nam</option>
+                                 <option value="Hà Tĩnh">Hà Tĩnh</option>
+                                 <option value="Hải Dương">Hải Dương</option>
+                                 <option value="Hải Phòng">Hải Phòng</option>
+                                 <option value="Hòa Bình">Hòa Bình</option>
+                                 <option value="Hậu Giang">Hậu Giang</option>
+                                 <option value="Hưng Yên">Hưng Yên</option>
+                                 <option value="Khánh Hòa">Khánh Hòa</option>
+                                 <option value="Kiên Giang">Kiên Giang</option>
+                                 <option value="Kon Tum">Kon Tum</option>
+                                 <option value="Lai Châu">Lai Châu</option>
+                                 <option value="Lào Cai">Lào Cai</option>
+                                 <option value="Lạng Sơn">Lạng Sơn</option>
+                                 <option value="Lâm Đồng">Lâm Đồng</option>
+                                 <option value="Long An">Long An</option>
+                                 <option value="Nam Định">Nam Định</option>
+                                 <option value="Nghệ An">Nghệ An</option>
+                                 <option value="Ninh Bình">Ninh Bình</option>
+                                 <option value="Ninh Thuận">Ninh Thuận</option>
+                                 <option value="Phú Thọ">Phú Thọ</option>
+                                 <option value="Phú Yên">Phú Yên</option>
+                                 <option value="Quảng Bình">Quảng Bình</option>
+                                 <option value="Quảng Nam">Quảng Nam</option>
+                                 <option value="Quảng Ngãi">Quảng Ngãi</option>
+                                 <option value="Quảng Ninh">Quảng Ninh</option>
+                                 <option value="Quảng Trị">Quảng Trị</option>
+                                 <option value="Sóc Trăng">Sóc Trăng</option>
+                                 <option value="Sơn La">Sơn La</option>
+                                 <option value="Tây Ninh">Tây Ninh</option>
+                                 <option value="Thái Bình">Thái Bình</option>
+                                 <option value="Thái Nguyên">Thái Nguyên</option>
+                                 <option value="Thanh Hóa">Thanh Hóa</option>
+                                 <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                                 <option value="Tiền Giang">Tiền Giang</option>
+                                 <option value="Trà Vinh">Trà Vinh</option>
+                                 <option value="Tuyên Quang">Tuyên Quang</option>
+                                 <option value="Vĩnh Long">Vĩnh Long</option>
+                                 <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                                 <option value="Yên Bái">Yên Bái</option>
+                                 <option value="Không Thể Hiện Tại Đây">Không Thể Hiện Tại Đây</option>
+                           </select>
+                        </div>
+                        <div id="ITEM_FORM1200" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <select class="widget-content" name="select3" placeholder="Tên Sản Phẩm" lp-label="Menu thả xuống 3" lp-name-id="type" required="required">
+                                 <option value="">Tên Sản Phẩm</option>
+                                 <option value="SS GLX NOTE 9">SS GLX NOTE 9</option>
+                           </select>
+                        </div>
+                        <div id="ITEM_FORM1201" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <select class="widget-content" name="select1" placeholder="Bộ Nhớ" lp-label="Menu thả xuống 1" lp-name-id="data" required="required">
+                                 <option value="">Bộ Nhớ</option>
+                                 <option value="128 GB">128 GB</option>
+                                 <option value="256 GB">256 GB</option>
+                                 <option value="512 GB">512 GB</option>
+                           </select>
+                        </div>
+                        <div id="ITEM_FORM1202" class="widget-element widget-snap widget-dragg widget-item-child" lp-type="item_form" lp-lang="ITEM_FORM" lp-display="block">
+                           <select class="widget-content" name="select2" placeholder="Màu Sắc" lp-label="Menu thả xuống 2" lp-name-id="color" required="required">
+                                 <option value="">Màu Sắc</option>
+                                 <option value="Đen">Đen</option>
+                                 <option value="Xanh Dương">Xanh Dương</option>
+                                 <option value="Vàng">Vàng</option>
+                           </select>
+                        </div>
+                     </form>
                         <?php echo do_shortcode( '[contact-form-7 id="12" title="Giảm giá"]' ); ?>
                      </div>
                      <div id="BUTTON1206" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1196" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span></span> </div>
