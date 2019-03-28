@@ -44,7 +44,9 @@
                      <div id="PARAGRAPH101" class="widget-element widget-snap" lp-type="textparagraph" lp-editor="true" lp-lang="PARAGRAPH" lp-display="block">
                         <p class="widget-content" lp-node="p">Mang điện thoại thông minh đến tay bạn.<br></p>
                      </div>
-                        <?php echo do_shortcode( '[contact-form-7 id="12" title="Giảm giá"]' ); ?>
+                        <div id="FORM1196" class='widget-element widget-snap'>
+                           <?php echo do_shortcode( '[contact-form-7 id="12" title="Giảm giá"]' ); ?>
+                        </div>
                      </div>
                      <div id="BUTTON1206" class="widget-element widget-snap style-1" lp-type="button" lp-lang="BUTTON" lp-background="button" lp-parent="FORM1196" lp-display="table"><span class="widget-content"><span class="ladi-animated-headline rotate-3" data-type="rotate-3"><span class="ladi-word" data-word="[&quot;GIẢM GIÁ NGAY!&quot;]">MUA NGAY!</span></span></span> </div>
                      <div id="HEADLINE1134" class="widget-element widget-snap" lp-type="textinline" lp-editor="true" lp-lang="HEADLINE" lp-display="block">
